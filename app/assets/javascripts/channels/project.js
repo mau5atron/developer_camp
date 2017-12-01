@@ -24,6 +24,14 @@ document.addEventListener('turbolinks:load', function(){
 		}, false)
 	}
 
+
+
+
+
+
+
+
+
 // var modal = document.getElementById('new-project-popover');
 
 // window.onclick = function(event){
@@ -34,5 +42,7 @@ document.addEventListener('turbolinks:load', function(){
 // 		modal.style.display
 // 	}
 // }
+
+
 
 })

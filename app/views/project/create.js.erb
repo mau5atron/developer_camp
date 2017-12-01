@@ -1,0 +1,14 @@
+console.log('Project name: <%= @project.name %>');
+
+var projectList = document.getElementById('project-list')
+
+var newProject = '<%= escape_javascript(render "project_card.html", project: @project) %>'
+
+var div = document.createElement('div')
+
+div.innerHTML = newProject
+
+projectList.appendChild(div.firstChild)
+
+projectPopover.classList.add('is-hidden')
+projectNameInput.value = ''
